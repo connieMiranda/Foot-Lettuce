@@ -1,1 +1,34 @@
-This is text
+Questions 1-6 completed.
+------
+
+Question 7:
+Time to run: 7.912120 s
+CPU: 91.4%, RAM: 71.4%
+
+Time to run when niced: 12.344324 s
+CPU: 78.5%, RAM: 70.9%
+
+These are expected results, since running MATLAB when niced at -15 puts it at a
+a low computation prority, it will take longer for the computations to be done.
+------
+
+Question 8:
+MATLAB executable file is located at:
+/usr/local/MATLAB/R2017b/bin/matlab
+This path can be executed just by typing "matlab", because a symbolic link was created,
+so that typing "matlab" would execute this path.
+------
+
+Question 9:
+Bash searches for files in the /usr directory. These files in this directory cannot be
+changed. This information is stored, in this case, on an external flash drive.
+------
+
+Question 10:
+The command to accomplish the stated task is,
+touch ~/Documents/usefulprograms.txt | ls -l /bin | sort>~/Documents/usefulprograms.txt | ls -l /usr/bin | sort>>~/Documents/usefulprograms.txt
+------
+Question 11:
+
+Default terminal is xterm, located at /usr/bin/. Default editor was
+assigned by using export $EDITOR=nano (nano is my editor of choice).
